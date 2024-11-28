@@ -12,7 +12,7 @@ class Server {
         this.middlewares();
         this.routes();
         this.listen();
-        this.conectarBD();
+        // this.conectarBD();
     }
     conectarBD() {
         this.con = mysql.createPool({
